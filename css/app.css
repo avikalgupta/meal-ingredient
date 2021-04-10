@@ -269,109 +269,25 @@ font-size: 1rem;
 }
 
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 480px){
+    #meal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .meal-name h3{
+        font-size: 0.8rem;
+    }
+    .recipe-btn {
+        width: 95px;
+        font-size: 0.8rem;
+        padding: 0.35rem 0;
+    }
+    .meal-details-content p:not(.recipe-category) {
+        font-size: 11px;
+    }
+    .title {
+        font-size: 1.2rem;
+    }
+}
