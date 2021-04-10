@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meal For Your Ingredient</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="titile">Find Meals For Your Ingredients</h2>
+                <blockquote>Real food doesn't have ingredients, real food is ingredients'
+                    <br>
+                    <cite>Jawie Oliver</cite>
+                </blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Inter an ingredient" id="search-input"
+                        required>
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">
+                    <!-- meal items -->
+                    <!-- <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="default-pasta.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Tomato Pasta</h3>
+                            <a href="#" class="recipe-btn">Get Recipe</a>
+                        </div> -->
+                </div>
+                <!-- end of meal item -->
+            </div>
+
+            <div class="meal-details">
+                <!-- recipe close button -->
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!-- meal content -->
+                <div class="meal-details-content">
+                    <!-- <h2 class="recipe-title">Meals Name Here</h2>
+                        <p class="recipe-category">Category Name</p>
+                        <div class="recipe-instruct">
+                            <h3>Instructions:</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quaerat ullam tenetur
+                                repudiandae? Voluptatum ducimus ex necessitatibus fugiat velit beatae dignissimos, non
+                                accusantium perspiciatis nisi! Minima non cumque voluptate eveniet.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ut dicta voluptatibus
+                                eos
+                                cum natus. Itaque distinctio, illum iste quas ab impedit vel recusandae ipsum
+                                consequatur
+                                necessitatibus facilis? Consectetur, corporis.</p>
+                        </div>
+                        <div class="recipe-meal-img">
+                            <img src="default-pasta.jpg" alt="Tomato Pasta">
+                        </div>
+                        <div class="recipe-link">
+                            <a href="#" target="_blank">Watch Video</a>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
