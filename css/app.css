@@ -275,6 +275,10 @@ font-size: 1rem;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+    
+    .meal-item {
+        margin: 0.1rem 0;
+    }
 
     .meal-name h3{
         font-size: 0.8rem;
